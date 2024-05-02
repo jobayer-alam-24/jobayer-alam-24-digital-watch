@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #141E30;
+    background-color: linear-gradient(to right, #243B55, #141E30); 
+
+}
+main h1{
+    text-align: center;
+    margin-top: 4%;
+    color: white;
+    font-size: 3rem;
+}
+.watch-container {
+    max-width: 4000px;
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 36%;
+    max-width: 40000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.watch-outer {
+    cursor: pointer;
+    background-color: #243B55;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 8% 14%;
+    transition: all 0.4s ease;
+    font-size: 1.7rem;
+    border-radius: 15px;
+    color: white;
+    border: 8px outset #243B55;
+}
+.watch-outer:hover{
+    transform: translateY(-20%);
+}
