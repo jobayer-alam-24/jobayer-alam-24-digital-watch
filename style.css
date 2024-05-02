@@ -18,29 +18,28 @@ main h1{
 }
 .watch-container {
     max-width: 4000px;
-    width: 30%;
+    width: 54%;
+    height: 160px;
     margin: auto;
     position: absolute;
     top: 40%;
-    left: 36%;
-    max-width: 40000px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    left: 22%;
+    text-align: center;
 
 }
 
 .watch-outer {
     cursor: pointer;
     background-color: #243B55;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 8% 14%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 3% 20%;
     transition: all 0.4s ease;
     font-size: 1.7rem;
     border-radius: 15px;
     color: white;
-    border: 8px outset #243B55;
+    border: 2px outset #243B55;
 }
+
 .watch-outer:hover{
-    transform: translateY(-20%);
+    transform: translateY(-20%); 
 }
