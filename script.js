@@ -1,13 +1,16 @@
 // time declaration 
-let hourEle = document.querySelector('#hour');
-let minEle = document.querySelector('#min');
-let secEle = document.querySelector('#sec');
-let ampmEle = document.querySelector('#ampm');
+let watch_outer = document.querySelector('.watch-outer');
+let clock_container1 = watch_outer.children[2];
+let clock_container2 = watch_outer.children[0];
+let hourEle = clock_container1.children[0];
+let minEle = clock_container1.children[1];
+let secEle = clock_container1.children[2];
+let ampmEle = clock_container1.children[3];
 // date declaration 
-let weekEle = document.querySelector('#week');
-let monthEle = document.querySelector('#month');
-let dayEle = document.querySelector('#day');
-let yearEle = document.querySelector('#year');
+let weekEle = clock_container2.children[0];
+let monthEle = clock_container2.children[1];
+let dayEle = clock_container2.children[2];
+let yearEle = clock_container2.children[3];
 
 
 // functions 
