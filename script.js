@@ -20,6 +20,7 @@ function clock(){
     let min = date.getMinutes();
     let sec = date.getSeconds();
 
+
     if(hour >= 12){
         ampmEle.textContent = "PM";
     }else{
@@ -33,14 +34,16 @@ function clock(){
     hourEle.textContent = hour + " : ";
     minEle.textContent = min + " : ";
     secEle.textContent = sec;
-
-    setInterval(clock, 1000);
+    
 }
 clock();
+setInterval(clock, 1000);
+
 function dateFormat(value){
     if(value < 10){
         value = "0" + value;
     }
+
     return value;
 }
 
